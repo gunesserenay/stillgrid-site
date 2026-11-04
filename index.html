@@ -24,13 +24,24 @@
     background: var(--card); color: var(--ink); text-decoration: none;
   }
   a.button:hover, a.button:focus { background: var(--highlight); color: #22304A; }
+  .stores { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  nav.links { display: flex; flex-direction: column; gap: 8px; font-size: 0.95rem; }
+  nav.links a { color: var(--ink); }
 </style>
 </head>
 <body>
 <main>
   <h1><span class="mark">Stillgrid</span></h1>
   <p>A calm nonogram puzzle game for iOS and Android.<br>Sakin bir nonogram bulmaca oyunu.</p>
-  <a class="button" href="privacy.html">Privacy Policy · Gizlilik Politikası</a>
+  <p class="stores">
+    <a class="button" href="https://apps.apple.com/app/id6822759221">App Store</a>
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.moonsunapp.stillgrid">Google Play</a>
+  </p>
+  <nav class="links">
+    <a href="support.html">Support · Destek</a>
+    <a href="privacy.html">Privacy Policy · Gizlilik Politikası</a>
+    <a href="terms.html">Terms of Use · Kullanım Şartları</a>
+  </nav>
 </main>
 </body>
 </html>
