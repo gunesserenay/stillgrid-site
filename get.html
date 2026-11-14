@@ -18,7 +18,7 @@
   // Only this page redirects: index, support, privacy and terms never do,
   // because the stores link them and their reviewers must be able to open them.
   (function () {
-    var REDIRECT = false;
+    var REDIRECT = true;
     if (!REDIRECT || /[?&]stay\b/.test(location.search)) return;
     var ua = navigator.userAgent || '';
     // iPadOS asks for desktop pages and calls itself a Mac with a touch screen.
